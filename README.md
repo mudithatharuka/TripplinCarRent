@@ -47,7 +47,7 @@ Admin Panel :
 - In order to rent or books vehicles you need to have an account on the web site. Either you van create a new account or you can use an existing account. Account credentials are as follows
   - To create a new account: 
  ```bash
-     http://localhost:8080/MyRadProject/reg.php
+     http://localhost/TripplinCarRent/reg.phps
 ```
 - To use existing account:
   - Email & password:
