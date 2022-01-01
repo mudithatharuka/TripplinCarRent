@@ -45,21 +45,31 @@ Admin Panel :
   http://localhost/TripplinCarRent/
 ```
 - In order to rent or books vehicles you need to have an account on the web site. Either you van create a new account or you can use an existing account. Account credentials are as follows
+- To create a new account: 
  ```bash
-  To create a new account: http://localhost:8080/MyRadProject/reg.php
-
-  To use existing account:
-  - email: workmine70@gmail.com
-  - password: asdf1234
+  http://localhost:8080/MyRadProject/reg.php
+```
+- To use existing account:
+  - email: 
+   ```bash
+  workmine70@gmail.com
+```
+  - password: 
+  ```bash
+  asdf1234
 ```
 - You can log into the admin panel by pasting the following url on the browser url bar.
 ```bash
   http://localhost/TripplinCarRent/adminlogin.php
 ```
 - Email and Password for a default admin account are as follows. Even you can create a new admin account too. But if you want to check the admin list, youu have to use the default admin account.
+  - Email: 
  ```bash
-  email: admin@gmail.com
-  password: asdf1234 
+  admin@gmail.com
+```
+  - password:  
+ ```bash
+  asdf1234
 ```
 ## Security
 
