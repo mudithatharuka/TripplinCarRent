@@ -1,0 +1,114 @@
+* {margin: 0; padding: 0;}
+.clearfix{overflow: auto;}
+a {text-decoration: none;}
+
+
+
+.bal{
+	clear: both;
+	height: 1px;
+}
+.Loginform{
+	font-family: sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #eee;
+	padding: 50px 5%;
+	border-radius: 20px;
+	margin: 100px 0;
+}
+.Loginform h1{
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 50px; 
+	border-bottom: 2px solid #808080;
+	padding-bottom: 15px;
+}
+.Loginform h2{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+.Loginform label{
+	float: left;
+	width: 20%;
+	font-size: 16px;
+	font-weight: bold;
+}
+.Loginform input{
+	width: 66%;
+	float: right;
+	font-size: 16px;
+	border: 1px solid #808080;
+	height: 25px;
+	border-radius: 20px;
+	padding: 0 2%;
+}
+.Loginform button{
+	margin-left: 34%;
+	width: 66%;
+	height: 40px;
+	margin-top: 10px;
+	border: 1px solid #808080;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 20px;
+}
+.Loginform button:hover{
+	background-color: #808080;
+	cursor: pointer;
+}
+.Loginform p{
+	margin: 20px 0;
+}
+
+
+/*Meadia queries of the login and sign up file*/
+@media screen and (max-width: 1100px){
+	.Loginform{
+		width: 55%;
+	}
+}
+@media screen and (max-width: 850px){
+	.Loginform{
+		width: 65%;
+	}
+}
+@media screen and (max-width: 650px){
+	.Loginform{
+		width: 75%;
+	}
+}
+@media screen and (max-width: 550px){
+	.Loginform{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 480px){
+	.Loginform{
+		margin-top: 250px;
+	}
+	.Loginform label{
+		font-size: 20px;
+	}
+	.Loginform input{
+		float: none;
+		width: 80%;
+		margin-left: 10%;
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 390px){
+	.Loginform{
+		margin-top: 270px;
+	}
+	.Loginform label{
+		width: 80%;
+	}
+	.Loginform input{
+		width: 90%;
+		margin-left: 5%;
+	}
+}

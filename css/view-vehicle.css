@@ -1,0 +1,61 @@
+* { margin: 0; padding: 0; }
+.clearfix{ overflow: auto; }
+a { text-decoration: none; }
+
+
+main { width: 1000px; margin: 0 auto; padding-top: 60px; }
+main .Topic { padding: 20px; margin-bottom: 50px; }
+main .Topic label { font-weight: bold; font-size: 22px; }
+
+main .Des .Images img { width: 231px; border-radius: 20px; margin: 8px; }
+
+main .Des .Contain { background-color: #2e4044; padding: 20px; margin-top: 30px; }
+main .Des .Contain p { padding-top: 8px; }
+main .Des label { float: left; width: 180px; font-weight: bold; font-family: sans-serif; font-size: 18px; }
+main .Des h3 { font-family: sans-serif; padding-bottom: 9px; }
+main .Des .Contain a button { padding: 8px 25px; font-family: sans-serif; font-size: 16px; font-weight: bold; border-radius: 25px; margin-top: 10px; background-color: #2e4044; border: 2px solid red; color: red; }
+main .Des .Contain a button:hover { background-color: red; color: #2e4044; cursor: pointer; }
+main .Des .Contain .Bookingdet { padding: 30px; border-radius: 20px; margin-top: 15px; }
+main .Des .Contain .Bookingdet h5 { margin-bottom: 20px; }
+main .Des .Contain .Bookingdet p { font-family: sans-serif; font-weight: bold; color: #1a1a1a; font-size: 18px; }
+main .Des .Contain .Bookingdet a p:hover { color: #eee; }
+main .Des .Contain .Bookingdet button { font-family: sans-serif; font-weight: bold; font-size: 16px; padding: 8px 25px; border-radius: 25px; margin-top: 10px; background-color: #2e4044; }
+main .Des .Contain .Bookingdet button.confirm { color: #f39c11; border: 2px solid #f39c11; }
+main .Des .Contain .Bookingdet button.delete { color: #e84c3d; border: 2px solid #e84c3d; }
+main .Des .Contain .Bookingdet button.returned { color: #00bc8c; border: 2px solid #00bc8c; }
+main .Des .Contain .Bookingdet button.confirm:hover { color: #2e4044; border: 2px solid #f39c11; background-color: #f39c11; cursor: pointer; }
+main .Des .Contain .Bookingdet button.delete:hover { color: #2e4044; border: 2px solid #e84c3d; background-color: #e84c3d; cursor: pointer; }
+main .Des .Contain .Bookingdet button.returned:hover { color: #2e4044; border: 2px solid #00bc8c; background-color: #00bc8c; cursor: pointer; }
+
+@media screen and ( max-width: 1120px){
+	main { width: 750px; }
+}
+
+@media screen and ( max-width: 890px){
+	main { width: 550px; }
+	main .Des .Images img { width: 256px; border-radius: 20px; margin: 8px; }
+	main .Des .Contain a div { text-align: center; }
+}
+
+@media screen and ( max-width: 650px){
+	main { width: 420px; }
+	main .Topic { text-align: center; }
+	main .Des .Images img { width: 405px; }	
+}
+
+@media screen and (max-width: 520px){
+	main { width: 350px; }
+	main .Des .Images img { width: 334px; }	
+	main .Des label { float: none; }
+}
+
+@media screen and (max-width: 430px){
+	main { width: 280px; }
+	main .Des .Images img { width: 264px; }	
+}
+
+@media screen and (max-width: 350px){
+	main { width: 200px; }
+	main .Topic h3, main .Topic label { display: none; }
+	main .Des .Images img { width: 184px; }	
+}

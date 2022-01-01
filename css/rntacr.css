@@ -1,0 +1,340 @@
+* {margin: 0; padding: 0;}
+.clearfix{overflow: auto;}
+a {text-decoration: none;}
+
+
+
+body{
+	background: #000;
+}
+
+
+
+.Top-Bar{
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	position: sticky;
+	top: 0;
+}
+.Top-Bar-Links{
+	float: left;
+}
+.Top-Bar-Links ul{
+	margin: 23px;
+	list-style: none;
+}
+.Top-Bar-Links ul li{
+	padding: 0 20px;
+	border-right: 2px solid white;
+	display: inline-block;
+	
+}
+.Top-Bar-Links ul li:last-child {
+	border: none;
+}
+.Top-Bar-Links ul li a{
+	letter-spacing: 1px;
+	color: white;
+}
+.Top-Bar-Links ul li a:hover{
+	color: yellow;
+}
+
+.Profile a{
+	margin: 23px 10px 23px 0;
+	letter-spacing: 1px;
+	color: yellow;
+	float: right;
+}
+
+
+
+.Content{
+	font-family: sans-serif;
+	background: url(../img/lamborghini-wallpaper-1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.Blank{
+	height: 50px;
+}
+.error{
+	background-color: red;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin: 0 6%;
+	padding: 10px 0;
+	
+}
+.noerror{
+	background-color: green;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin: 0 6%;
+	padding: 10px 0;
+	
+}
+.Content h1{
+	margin: 0 5%;
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+.Content p{
+	margin: 50px 5% 0 5%;
+	color: white;
+}
+.Content form{
+	padding: 25px 0 45px 0;
+	border-radius: 15px;
+	width: 75%;
+	background-color: rgb(0,0,0,0.6);
+/*	height: 1650px;*/
+	margin: 0 12.5% 0 12.5%;
+}
+#Topic{
+	width: 100%;
+	height: 100px;
+}
+.Topic{
+	margin: 40px 4% 0 13%;
+	display: inline-block;
+	width: 35%;
+	font-weight: 700px;	
+	color: orange;
+}
+.SubTopic{
+	margin: 30px 4% 0 18%;
+	display: inline-block;
+	width: 30%;
+	color: orange;
+}
+.Content input{
+	padding-right: 1%;
+	width: 32%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+#file-upload-button{
+	background: #000;
+	color: orange;
+}
+select{
+	height: 31px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+option{
+	background-color: #1a1a1a;
+	border: none;
+}
+.Content input[type = "text"],input[type = "password"],input[type = "mail"],input[type = "number"],select{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	border-radius: 0px;
+}
+.Content button{
+	background-color: yellow;
+	width: 25%;
+	height: 40px;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 45px;
+	margin-left: 52%;
+	border: none;
+	border-radius: 35px;
+	transition-duration: .60s;
+	box-shadow: 0 30px 60px rgba(0,0,0,5);
+}
+.Content button:hover{
+	box-shadow: 0 10px 30px rgba(0,0,0,5);
+	transform: scale(.95);
+	color: black;
+	cursor: pointer;
+}
+
+
+
+.Home-Col{
+	color: white;
+	margin: 0 2.5% 0 2.5%;
+	width: 20%;
+	float: left;
+}
+.Home-Col h1{
+	margin: 20px 0 20px 0;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+}
+.Home-Col p{
+	color: grey;
+}
+.Home-Col a:hover{
+	color: yellow;
+}
+
+
+.Quick-Links a{
+	clear: both;
+	float: right;
+	margin: 6px;
+	margin-right: 35px;
+	color: grey;
+	border-bottom: 1px solid white;
+}
+.Quick-Links a:first-child{
+	margin-top: 0;
+}
+
+
+.Services{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.Services img{
+	float: left;
+	margin-right: 15px;
+	width: 50px
+}
+.Services a{
+	color: red;
+	float: right;
+	margin: 5px 0 5px 0;
+}
+
+
+.Final-Social-Media ul{
+	list-style: none;
+}
+.Final-Social-Media ul li{
+	display: inline;
+}
+.Final-Social-Media ul li a{
+	padding: 10px;
+	background: transparent;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+
+/*Meadia queries of the rent a car file*/
+
+@media screen and (max-width: 920px){
+	.Content h1 {
+		margin-top: 60px;
+	}
+	.Topic{
+		width: 80%;
+	}
+	.Content input{
+		width: 68%;
+		margin-top: 20px;
+	}
+	.Content select{
+		margin-top: 20px;
+	}
+	.Content input.ContactNo{
+		width: 30%;
+	}
+	.Content input[type="file"]{
+		width: 250px;
+	}
+	.Name, .Province, .District, .VehicleName, .BrandName, .ManufactureYear, .Condition, .Description, .Price, .Nic, .Email, select{
+		margin-left: 100px;
+	}
+}
+@media screen and (max-width: 730px){
+	.Content p{
+		width: 75%;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.Content input[type="file"]{
+		margin-left: 100px;
+	}
+	.SubTopic{
+		width: 250px;
+	}
+	.Name, .Province, .District, .VehicleName, .BrandName, .ManufactureYear, .Condition, .Description, .Price, .Nic, .Email, select{
+		margin-left: 70px;
+	}
+	.Content input{
+		width: 73%;
+	}
+	.Content button{
+		margin: 0;
+		margin-left: 100px;
+		margin-top: 50px;
+		width: 150px;
+	}
+}
+@media screen and (max-width: 650px){
+	.Name, .Province, .District, .VehicleName, .BrandName, .ManufactureYear, .Condition, .Description, .Price, .Nic, .Email, select{
+		margin-left: 50px;
+	}
+	.Content input{
+		width: 70%;
+	}
+	.Content input[type="file"]{
+		margin-left: 70px;
+	}
+	.Content button{
+		margin: 0;
+		margin-left: 70px;
+		margin-top: 50px;
+		width: 150px;
+	}
+	input.ContactNo{
+		width: 200px;
+	}
+}
+@media screen and (max-width: 470px){
+	.Topic{
+		font-size: 18px;
+	}
+	.Content form{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+}
+@media screen and (max-width: 400px){
+	.Topic{
+		margin-left: 25px;
+	}
+	.Name, .Province, .District, .VehicleName, .BrandName, .ManufactureYear, .Condition, .Description, .Price, .Nic, .Email, select{
+		margin-left: 25px;
+	}
+	.SubTopic{
+		margin-left: 30px;
+	}
+	.Content input[type="file"]{
+		margin-left: 30px;
+	}
+	.Content button{
+		margin-left: 30px;
+	}
+}
+@media screen and (max-width: 340px){
+	.Content input[type="file"]{
+		width: 190px;
+	}
+	.Content form{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+}

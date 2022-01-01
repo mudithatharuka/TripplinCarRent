@@ -1,0 +1,139 @@
+* { margin: 0; padding: 0; }
+.clearfix{ overflow: auto; }
+a { text-decoration: none; }
+
+/*================== adminhome.php styles =======================*/
+
+header { background-color: #eee; position: sticky; top: 0; }
+header h1 { float: left; padding: 20px 30px; }
+header p { float: right; padding: 20px 30px; font-size: 19px; }
+header p button { font-weight:bold; padding: 8px 35px; border-radius: 20px; color: #e44e5c; font-family: sans-serif; border: 2px solid #e44e5c; background-color: #2e4044 }
+header p button:hover { background-color: #e44e5c; cursor: pointer; color: #2e4044; }
+
+.Main .Mainbuttons { position: sticky; top: 77.5px; }
+.Main .Mainbuttons p { text-align: center; padding: 40px 0; background-color: #fff; }
+.Main .Mainbuttons p button { padding: 13px 45px; border-radius: 30px; color: #fff; font-family: sans-serif; background-color: #2e4044 }
+.Main .Mainbuttons p button.rented { margin-right: 10px; border: 2px solid #41c5b8; color: #41c5b8;font-weight:bold; }
+.Main .Mainbuttons p button.booked { margin-left: 10px; border: 2px solid #4abae0; color: #4abae0;font-weight:bold; }
+.Main .Mainbuttons p button.rented:hover { cursor: pointer; background-color: #41c5b8; color: #2e4044; }
+.Main .Mainbuttons p button.booked:hover { cursor: pointer; background-color: #4abae0; color: #2e4044; }
+
+.Search { text-align: center; background-color: #fff; width: 1000px; padding-bottom: 20px; margin: 0 auto; /*position: sticky; top: 203.5px;*/ }
+.Search input { width: 976px; padding: 8px 10px; background-color: #eee; border: 2px solid #808080; }
+
+.Maintable { width: 1000px; margin: 0 auto; }
+.Maintable table { /*border-collapse: collapse;*/ align-items: center; width: 100%; background-color: #fff; }
+.Maintable table th { /*position: sticky; top: 259px;*/ padding: 20px 5px; background-color: #808080; text-align: center; font-size: 18px; font-family: sans-serif; }
+.Maintable table td { padding: 15px 10px; background-color: #eee; border-bottom: 2px solid #808080; text-align: center; }
+.Maintable table td a { font-family: sans-serif; padding: 5px 15px; background-color: #2e4044; border-radius: 20px; color: #808080; border: 1px solid #808080; }
+.Maintable table td a:hover { color: #2e4044; background-color: #808080; }
+
+/*================== vehiclelist.php styles =====================*/
+
+.Category { position: sticky; top: 77.5px; background-color: #fff; }
+.Category .Categorybut { width: 1000px; margin: 0 auto; padding-top: 50px; }
+.Category .Categorybut button { background-color: #2e4044; padding: 15px 0px; width: 120px; font-weight: bold; font-size: 16px; border: none; }
+.Category .Categorybut button.car { background-color: #f8c44c; color: #2e4044 }
+.Category .Categorybut button.van { color: #3dbe62; }
+.Category .Categorybut button.offroad { color: #3db3d9; }
+.Category .Categorybut button.bus { color: #b479d9; }
+.Category .Categorybut .cCar, .vVan, .bBus { float: left; }
+.Category .Categorybut button.car:hover { background-color: #f8c44c; color: #2e4044; cursor: pointer; }
+.Category .Categorybut button.van:hover { background-color: #3dbe62; color: #2e4044; cursor: pointer; }
+.Category .Categorybut button.offroad:hover { background-color: #3db3d9; color: #2e4044; cursor: pointer; }
+.Category .Categorybut button.bus:hover { background-color: #b479d9; color: #2e4044; cursor: pointer; }
+
+.Vehicletable { width: 1000px; margin: 0 auto; }
+.Vehicletable table { border-collapse: collapse; align-items: center; width: 100%; background-color: #fff; }
+.Vehicletable table th { border-bottom: 2px solid #fff; /*position: sticky; top: 177.5px;*/ padding: 20px 5px; background-color: #808080; text-align: center; font-size: 18px; font-family: sans-serif; }
+.Vehicletable table td { padding: 15px 0; background-color: #eee; border-bottom: 2px solid #808080; text-align: center; }
+
+.Vehicletable table td a { font-family: sans-serif; padding: 5px 15px; background-color: #2e4044; border-radius: 20px; }
+.Vehicletable table td a.cars { color: #f8c44c; border: 1px solid #f8c44c; }
+.Vehicletable table td a.vans { color: #3dbe62; border: 1px solid #3dbe62; }
+.Vehicletable table td a.offroads { color: #3db3d9; border: 1px solid #3db3d9; }
+.Vehicletable table td a.busses { color: #b479d9; border: 1px solid #b479d9; }
+.Vehicletable table td a.cars:hover { background-color: #f8c44c; color: #2e4044; font-family: sans-serif; }
+.Vehicletable table td a.vans:hover { background-color: #3dbe62; color: #2e4044; font-family: sans-serif; }
+.Vehicletable table td a.offroads:hover { background-color: #3db3d9; color: #2e4044; font-family: sans-serif; }
+.Vehicletable table td a.busses:hover { background-color: #b479d9; color: #2e4044; font-family: sans-serif; }
+
+@media screen and (max-width: 1200px) {
+	.Vehicletable th:nth-child(6), .Vehicletable td:nth-child(6) { display: none; }
+}
+@media screen and (max-width: 980px) {
+	.Vehicletable { overflow-x: auto; }
+	.Vehicletable table { width: 980px; }
+	.Vehicletable table th { /*position: sticky; top:10px;*/ }	
+}
+@media screen and (max-width: 1000px) { 
+	
+	.Category .Categorybut { width: 100% }
+	.Vehicletable { width: 100% }
+
+ }
+ @media screen and (max-width: 1050px) {
+ 	.Search { width: 100%; }
+ 	.Search input { width: 600px; }
+
+ 	.Maintable th:nth-child(7), .Maintable td:nth-child(7) { display: none; }
+ 	.Maintable th:nth-child(8), .Maintable td:nth-child(8) { display: none; }
+ 	.Maintable { width: 850px; }
+ }
+@media screen and (max-width: 750px) {
+	header h1 { float: none; text-align: center; }
+	header p { float: none; text-align: center;}
+
+	/*.Search { position: sticky; top: 279.5px; }*/
+	.Search input { width: 400px; }
+
+	.Main .Mainbuttons { position: sticky; top: 153.5px; background-color: #fff; }
+
+	.Category { position: sticky; top: 153.5px; background-color: #fff; }
+	.Category .Categorybut .cCar, .vVan, .bBus{ float: none; }
+	.Category .Categorybut { text-align: center; }
+}
+@media screen and (max-width: 840px) {
+	.Maintable { overflow-x: auto; }
+	.Maintable table { width: 840px; }
+	.Maintable { width: 80%; margin: 0 auto; }
+}
+@media screen and (max-width: 600px) {
+	.Category .Categorybut button { width: 200px; }
+}
+@media screen and (max-width: 550px){
+	.Main .Mainbuttons { align-items: center; }
+	.Main .Mainbuttons p button { width: 300px; }
+	.Main .Mainbuttons p button.rented { margin-right: 0px; margin-bottom: 5px; }
+	.Main .Mainbuttons p button.booked { margin-left: 0px; margin-top: 5px; }
+	/*.Main .Search { position: sticky; top: 335.5px; }*/
+	
+}
+@media screen and (max-width: 470px){
+	.Main .Search input{ width: 300px; }
+}
+@media screen and (max-width: 425px) {
+	.Category .Categorybut button { width: 150px; }
+}
+@media screen and (max-width: 402px) {
+	.Category { position: sticky; top: 175.5px; background-color: #fff; }
+	.Main .Mainbuttons { position: sticky; top: 175.5px; background-color: #fff; }
+	.Search input { width: 300px; }
+	/*.Main .Search { position: sticky; top: 357.5px; }*/
+}
+@media screen and (max-width: 350px) {
+	.Category { position: sticky; top: 212.5px; background-color: #fff; }
+	.Main .Search input { width: 200px; }
+	.Main .Mainbuttons p button { width: 230px; }
+}
+@media screen and (max-width: 307px) {
+	.Main .Mainbuttons { position: sticky; top: 213px; }
+	/*.Main .Search { position: sticky; top: 395px; }*/
+}
+@media screen and (max-width: 269px) {
+	.Category { position: sticky; top: 234.5px; background-color: #fff; }
+	.Main .Search input{ width: 150px; }
+	.Main .Mainbuttons p button { width: 200px; }
+	.Main .Mainbuttons { position: sticky; top: 235px; }
+/*	.Main .Search { position: sticky; top: 416px; }*/
+}

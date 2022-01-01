@@ -1,0 +1,296 @@
+* {margin: 0; padding: 0;}
+.clearfix{overflow: auto;}
+a {text-decoration: none;}
+
+
+
+body{
+	background: #000;
+}
+
+
+
+.Top-Bar{
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	position: sticky;
+	top: 0;
+}
+.Top-Bar-Links{
+	float: left;
+}
+.Top-Bar-Links ul{
+	margin: 23px;
+	list-style: none;
+}
+.Top-Bar-Links ul li{
+	padding: 0 20px;
+	border-right: 2px solid white;
+	display: inline-block;
+}
+.Top-Bar-Links ul li:last-child {
+	border: none;
+}
+.Top-Bar-Links ul li a{
+	letter-spacing: 1px;
+	color: white;
+}
+.Top-Bar-Links ul li a:hover{
+	color: yellow;
+}
+
+
+
+.Main{
+	/*s*/
+	margin: 0;
+	padding: 0 0 150px 0;
+	background:url(../img/lamborghini-wallpapers-full-hd-For-Widescreen-Wallpaper.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.error{
+	background-color: red;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin: 0 9.5%;
+	padding: 10px 0;
+	
+}
+.logout{
+	background-color: green;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin: 0 9.5%;
+	padding: 10px 0;
+	
+}
+.Blank{
+	height: 117px;
+}
+.LogForm{
+	width: 53%;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 12px 0px 12px 0px;
+	margin: 0 23.5% 0 23.5%;
+	background-color: rgb(0,0,0,0.8);
+	border-radius: 15px 15px 0px 0px;
+	font-family: sans-serif;
+}
+.Main form{
+	width: 53%;
+	padding: 35px 0 35px 0;
+	background-color: rgb(0,0,0,0.6);
+	font-family: sans-serif;
+	border-radius: 0px 0px 15px 15px;
+	margin: 0 23.5% 0 23.5%;
+}
+#Topic{
+	width: 100%;
+	height: 100px;
+}
+.Topic{
+	margin: 40px 4% 0 9.5%;
+	display: inline-block;
+	width: 15%;
+	color: white;
+	font-size: 18px;
+	font-weight: 700px;	
+}
+.Username{
+	width: 60%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.Email{
+	width: 60%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.Password{
+	width: 60%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.RePassword{
+	width: 60%;
+	margin-left: 29%;
+	line-height: 30px;
+	border-radius: 6px;
+	margin-top: 20px;
+	font-size: 16px;
+	color: orange;
+}
+.Main button{
+	background-color: red;
+	color: white;
+	width: 200px;
+	height: 40px;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 45px;
+	margin-left: 29%;
+	border: none;
+	border-radius: 5px;
+}
+.Main button:hover{
+	background-color: yellow;
+	cursor: pointer;
+	color: black;
+}
+.Main input[type = "text"],input[type = "password"],input[type = "mail"]{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	border-radius: 0px;
+}
+.Down{
+	margin: 40px 0 10px 9.5%;
+}
+.Down ul li:last-child{
+	padding-top: 10px;
+}
+.Down ul li a{
+	color: white;
+	border-bottom: 1px solid #fff;
+}
+.Down ul li a:hover{
+	color: yellow;
+}
+
+
+
+.Home-Col{
+	color: white;
+	margin: 0 2.5% 0 2.5%;
+	width: 20%;
+	float: left;
+}
+.Home-Col h1{
+	margin: 20px 0 20px 0;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+}
+.Home-Col p{
+	color: grey;
+}
+.Home-Col a:hover{
+	color: yellow;
+}
+
+
+.Quick-Links a{
+	clear: both;
+	float: right;
+	margin: 6px;
+	margin-right: 35px;
+	color: grey;
+	border-bottom: 1px solid white;
+}
+.Quick-Links a:first-child{
+	margin-top: 0;
+}
+
+
+.Services{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.Services img{
+	float: left;
+	margin-right: 15px;
+	width: 50px
+}
+.Services a{
+	color: red;
+	float: right;
+	margin: 5px 0 5px 0;
+}
+
+
+.Final-Social-Media ul{
+	list-style: none;
+}
+.Final-Social-Media ul li{
+	display: inline;
+}
+.Final-Social-Media ul li a{
+	padding: 10px;
+	background: transparent;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+/*Meadia queries of the login file*/
+
+@media screen and (max-width: 920px){
+	.Main{
+		padding-bottom: 100px;
+	}
+	.Topic{
+
+		display: block;
+		/*margin: 0;
+		padding: 20px 30px;*/
+	}
+	.Username, .Email, .Password, .RePassword{
+		margin: 0;
+		margin-left: 100px;
+		padding-top: 30px;
+	}
+}	
+@media screen and (max-width: 850px){
+	.LogForm{
+		width: 75%;
+		margin: 0 auto;
+	}
+	.Main form{
+		width: 75%;
+		margin: 0 auto;	
+	}
+}
+@media screen and (max-width: 530px){
+	.Topic{
+		width: 80%;
+	}
+	.Username, .Email, .Password, .RePassword{
+		margin: 0;
+		margin-left: 20%;
+		padding-top: 30px;
+	}
+	.Main button{
+		margin-left: 20%;
+	}
+}
+@media screen and (max-width: 440px){
+	.Main button{
+		width: 150px;
+	}
+	.LogForm h1{
+		font-size: 25px;
+	}	
+}@media screen and (max-width: 345px){
+	.Main button{
+		width: 125px;
+	}
+	.LogForm h1{
+		font-size: 22px;
+	}
+	.Down ul li a{
+		font-size: 13px;
+	}	
+}

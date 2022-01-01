@@ -1,0 +1,676 @@
+* {margin: 0; padding: 0;}
+.clearfix{overflow: auto;}
+a {text-decoration: none;}
+
+
+
+body{
+	background: #000;
+}
+
+.Top-Bar{
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	position: sticky;
+	top: 0;
+}
+.Top-Bar-Links{
+	float: left;
+}
+.Top-Bar-Links ul{
+	margin: 23px;
+	list-style: none;
+}
+.Top-Bar-Links ul li{
+	padding: 0 20px;
+	border-right: 2px solid white;
+	display: inline-block;
+	
+}
+.Top-Bar-Links ul li:last-child {
+	border: none;
+}
+.Top-Bar-Links ul li a{
+	letter-spacing: 1px;
+	color: white;
+}
+.Top-Bar-Links ul li a:hover{
+	color: yellow;
+}
+.Profile a{
+	margin: 23px 10px 23px 0;
+	letter-spacing: 1px;
+	color: yellow;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Home-Col{
+	color: white;
+	margin: 0 2.5% 0 2.5%;
+	width: 20%;
+	float: left;
+}
+.Home-Col h1{
+	margin: 20px 0 20px 0;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+}
+.Home-Col p{
+	color: grey;
+}
+.Home-Col a:hover{
+	color: yellow;
+}
+
+
+.Quick-Links a{
+	clear: both;
+	float: right;
+	margin: 6px;
+	margin-right: 35px;
+	color: grey;
+	border-bottom: 1px solid white;
+}
+.Quick-Links a:first-child{
+	margin-top: 0;
+}
+
+
+.Services{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.Services img{
+	float: left;
+	margin-right: 15px;
+	width: 50px
+}
+.Services a{
+	color: red;
+	float: right;
+	margin: 5px 0 5px 0;
+}
+
+
+.Final-Social-Media ul{
+	list-style: none;
+}
+.Final-Social-Media ul li{
+	display: inline;
+}
+.Final-Social-Media ul li a{
+	padding: 10px;
+	background: transparent;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+.Final-Social-Media ul li a:hover{
+	
+}
+
+
+
+
+.empty{
+	clear: both;
+	height: 1px;
+	background-color: #1a1a1a;
+}
+.Cont{
+	background-color: #1a1a1a;
+	width: 100%;
+}
+.Content3{
+	color: #fff;
+	width: 75%;
+	margin: 0px auto;
+	padding: 50px 0;
+	/*padding: 40px 0 50px 0;*/
+	background-color: #1a1a1a;
+}
+.Advice{
+	width: 46%;
+	float: left;
+	margin-right: 3%;
+	font-weight: bold;
+}
+.Advice h2{
+	margin-bottom: 25px;
+
+}
+.Advice h5{
+	margin-bottom: 20px;
+}
+.Hotline{
+	padding: 22px 0;
+	border-radius: 5px;
+	border: 1px solid #35aa58;
+	float: left;
+	width: 29%;
+	margin-right: 1%;
+}
+.Hotline h2{
+	font-size: 28px;
+	text-align: center;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-bottom: 20px;
+	color: #35aa58;
+}
+.Hotline h1{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 15px;
+	color: #35aa58;
+}
+.Hotline h3{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.Hotline h6{
+	text-align: center;
+}
+.Advertiesment1{
+	float: left;
+	width: 20%;
+	height: 220px;
+}
+.Advertiesment1 img{
+	width: 100%;
+	height: 100%;
+}
+.Resp-ad{
+	width: 100%;
+	display: none;
+}
+.Resp-ad img{
+	width: 100%;
+}
+
+.Search{
+	background-color: #1a1a1a;
+	align-items: center;
+	text-align: center;
+}
+.Search input{
+	width: 85%;
+	margin-bottom: 50px;
+	padding: 8px 35px;
+	background-color: #000;
+	border-radius: 20px;
+	border: 1px solid #328ce5;
+	color: #328ce5;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.Content{
+	background-color: #1a1a1a;
+	padding-bottom: 60px;
+	color: #fff;
+}
+.Itemhead{
+	width: 75%;
+	margin: 0 auto;
+	border: 2px solid #35aa58;
+	margin-bottom: 50px;
+	border-top: none;
+}
+.Scroll-div {
+	height: 200px;
+}
+.Itemhead h1{
+	background-color: #35aa58;
+	color: #fff;
+	padding: 5px 1%;
+	font-family: sans-serif;
+	margin-bottom: 30px;	
+}
+.Itemhead h1 span{
+	float: right;
+	font-size: 15px;
+	background-color: #fff;
+	color: #35aa58;
+	padding: 3px 1%;
+	border-radius: 15px;
+	margin-top: 6px;
+}
+.Itemhead h1 a i{
+	display: none;
+	float: right;
+	font-size: 15px;
+	background-color: #fff;
+	color: #35aa58;
+	padding: 3px 1%;
+	border-radius: 15px;
+	margin-top: 2px;
+}
+.Item{
+	/*display: inline-block;*/
+	float: left;
+	margin: 20px 1%;
+	width: 22.8%;
+	font-family: sans-serif;
+
+}
+
+.Item h3{
+	text-align: center;
+	margin: 10px;
+	font-size: 24px;
+}
+.Item p{
+	text-align: center;
+	font-size: 18px;
+}
+.Item img{
+	width: 100%;
+	height: 150px;
+}
+.Item button{
+	border: none;
+	border-radius: 15px;
+	background-color: yellow;
+	color: black;
+	font-weight: 300px;
+	font-family: sans-serif;
+	margin: 17px 20% 0 20%;
+	width: 60%;
+	height: 30px;
+
+	
+}
+.Item button:hover{
+	box-shadow: 0 10px 30px rgba(0,0,0,5);
+	transform: scale(.95);
+	transition-duration: .60s;
+	cursor: pointer;
+}
+
+
+
+.Itemhead_sss{
+	width: 75%;
+	margin: 0 auto;
+	border: 2px solid #328ce5;
+	margin-bottom: 50px;
+	border-top: none;
+}
+.Itemhead_sss h1{
+	background-color: #328ce5;
+	color: #fff;
+	padding: 5px 1%;
+	font-family: sans-serif;
+	margin-bottom: 30px;	
+}
+.Itemhead_sss h1 span{
+	float: right;
+	font-size: 15px;
+	background-color: #fff;
+	color: #328ce5;
+	padding: 3px 1%;
+	border-radius: 15px;
+	margin-top: 6px;
+}
+
+.Singlecontent{
+	padding: 60px 0;
+	background-color: #1a1a1a;
+}
+.Advertiesment2{
+	width: 75%;
+	margin: 0 auto;
+}
+.Advertiesment2 img{
+	width: 100%;
+	height: 90px;
+}
+
+
+
+.Singlevehicle{
+	width: 75%;
+	margin: 100px auto;
+	border: 2px solid orange;
+	border-top: none;
+	background-color: #1a1a1a;
+}
+.Singlevehicle h1{
+	background-color: orange;
+	color: #fff;
+	padding: 5px 1%; 
+	margin-bottom: 50px;
+}
+.Singlecontent .Singlevehicle p.success{
+	background-color: #00bc8c;
+	padding: 15px 30px;
+	margin: 0 30px 20px 30px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}.Singlecontent .Singlevehicle p.error{
+	background-color: red;
+	padding: 15px 30px;
+	margin: 0 30px 20px 30px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}
+.Singlevehicle img{
+	margin: 20px 1%;
+	width: 22.8%;
+	float: left;
+	height: 200px;
+}
+.Singlevehicle p{
+
+}
+.Singlevehicle label{
+	margin-left: 4%;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	float: left;
+	clear: both;
+	width: 25%;
+	margin-bottom: 20px;
+	color: #fff;
+}
+.Singlevehicle h4{
+	border-bottom: 1px solid orange;
+	float: left;
+	padding-bottom: 5px;
+	font-family: sans-serif;
+	font-weight: normal;
+	margin-right: 4%;
+	margin-left: 4%;
+	color: #aaa;
+}
+.Singlevehicle h3{
+	margin-left: 20%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	float: left;
+	padding: 6px 40px;
+	border-radius: 5px;
+	font-family: sans-serif;
+	background-color: #35aa58;
+	color: #fff;
+	border: 1px solid #35aa58;
+	text-align: center;
+}
+.Singlevehicle button{
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 2%;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0 60px;
+	height: 36px;
+	border-radius: 5px;
+	font-family: sans-serif;
+	background-color: #35aa58;
+	color: #fff;
+	border: 2px solid #35aa58;
+}
+.Singlevehicle button:hover{
+	box-shadow: 0 10px 30px rgba(0,0,0,5);
+	transform: scale(.95);
+	transition-duration: .60s;
+	cursor: pointer;
+	background-color: orange;
+	border: 2px solid orange;	
+}
+.Details{
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 50px;
+	transition-duration: .60s;
+}
+.Details label{
+	width: 40%;
+}
+.Details input{
+	width: 40%;
+	border-radius: 20px;
+	border: 1px solid #aaa;
+	color: orange;
+	font-size: 18px;
+	padding: 5px 2%;
+	float: left;
+	background-color: #1a1a1a;
+	transition-duration: .60s;
+}
+.Details input[type = "date"]:hover{
+	background-color: #808080;
+}
+.Singlevehicle form { transition-duration: .60s; }
+
+
+/*Meadia queries of the showroom file*/
+
+@media screen and (max-width: 1250px){
+	.Item{
+		width: 48%;
+	}
+	.Singlevehicle img{
+		width: 48%;
+	}
+	.Singlevehicle label{
+		font-size: 25px;
+	}
+	.Singlevehicle h4{
+		font-size: 20px;
+	}
+	.Details label{
+		width: 80%;
+	}
+	.Details input{
+		margin-left: 15%;
+		margin-bottom: 30px;
+		width: 60%;
+	}
+}
+@media screen and (max-width: 1100px){
+	.Advertiesment1{
+		height: 180px;
+	}
+	.Details input{
+		width: 70%;
+	}
+}
+@media screen and (max-width: 950px){
+	.Singlevehicle label{
+		width: 85%;
+		margin-left: 15%;
+	}
+	.Singlevehicle h4{
+		width: 60%;
+		margin-left: 15%;
+		padding-left: 10%;
+		margin-bottom: 35px;
+	}
+}
+@media screen and (max-width: 920px){
+	.Cont{
+		padding-top: 70px;
+	}
+	.Singlecontent{
+		padding-top: 120px;
+	}
+	.Advice{
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 30px;
+	}
+	.Hotline{
+		width: 60%;
+	}
+	.Advertiesment1{
+		float: right;	
+		width: 35%;
+		height: 220px;
+	}
+	.Details input, .Details label{
+		margin-left: 10%;
+		width: 80%;
+	}
+}
+@media screen and (max-width: 900px){
+	.Item{
+		width: 90%;
+		margin-left: 5%;
+	}
+	.Singlevehicle img{
+		width: 90%;
+		margin-left: 5%;
+	}
+}
+@media screen and (max-width: 780px){
+	.Advertiesment1{
+		height: 180px;
+	}
+	.Advertiesment2 img{
+		height: 60px;
+	}
+	.Singlevehicle h3.bookpreh3, .Singlevehicle h3.bookh3{
+		margin-left: 35%;
+		margin-right: 35%;
+		margin-bottom: 20px;
+		width: 90px;
+	}
+	.Singlevehicle button.bookpre, .Singlevehicle button.book{
+		margin-left: 35%;
+		margin-right: 35%;
+		margin-top: 20px;
+		padding: 0 57px;
+	}
+	.Details label{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 650px){
+	.Hotline{
+		float: none;
+		box-sizing: border-box;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.Advertiesment1{
+		display: none;
+	}
+	.Resp-ad{
+		display: block;
+	}
+	.Singlevehicle h4{
+		padding-left: 0%;
+		width: 70%;
+	}
+	.Singlevehicle h3.bookpreh3, .Singlevehicle h3.bookh3{
+		margin-left: 30%;
+	}
+	.Singlevehicle button.bookpre, .Singlevehicle button.book{
+		margin-left: 30%;
+	}
+	.Details input, .Details label{
+		margin-left: 5%;
+		width: 90%;
+	}
+}
+@media screen and (max-width: 565px){
+	.Itemhead h1{
+		font-size: 20px;
+	}
+	.Itemhead h1 span {
+		display: none;
+	}
+	.Itemhead h1 a i{
+		display: block;
+	}
+	.Singlevehicle h3.bookpreh3, .Singlevehicle h3.bookh3{
+		margin-left: 26%;
+	}
+	.Singlevehicle button.bookpre, .Singlevehicle button.book{
+		margin-left: 26%;
+	}
+	.Advertiesment2 img{
+		height: 40px;
+	}
+	.Details input, .Details label{
+		margin-left: 0;
+		width: 100%;
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 470px){
+	.Singlevehicle h3.bookpreh3, .Singlevehicle h3.bookh3{
+		margin-left: 15%;
+	}
+	.Singlevehicle button.bookpre, .Singlevehicle button.book{
+		margin-left: 15%;
+	}
+	.Advertiesment2 img{
+		height: 35px;
+	}
+	.Details{
+		width: 85%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 345px){
+	.Itemhead h1{
+		font-size: 17px;
+	}
+	.Itemhead h1 a i{
+		margin: 0;
+	}
+	.Singlevehicle h3.bookpreh3, .Singlevehicle h3.bookh3{
+		width: 60px;
+		text-align: center;
+	}
+	.Singlevehicle button.bookpre, .Singlevehicle button.book{
+		padding: 0 42px;
+	}
+	.Advertiesment2 img{
+		height: 30px;
+	}
+}@media screen and (max-width: 280px){
+	.Itemhead h1{
+		font-size: 14px;
+	}
+	.Advertiesment2 img{
+		height: 25px;
+	}
+}
+@media screen and (max-width: 565px){
+	.Itemhead_sss h1{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 345px){
+	.Itemhead_sss h1{
+		font-size: 17px;
+	}
+}
+@media screen and (max-width: 280px){
+	.Itemhead_sss h1{
+		font-size: 14px;
+	}
+}

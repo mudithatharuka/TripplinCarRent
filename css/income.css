@@ -1,0 +1,188 @@
+* {margin: 0; padding: 0;}
+.clearfix{overflow: auto;}
+a {text-decoration: none;}
+
+body{
+	background: #000;
+}
+
+.Top-Bar{
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	position: sticky;
+	top: 0;
+}
+.Top-Bar-Links{
+	float: left;
+}
+.Top-Bar-Links ul{
+	margin: 23px;
+	list-style: none;
+}
+.Top-Bar-Links ul li{
+	padding: 0 20px;
+	border-right: 2px solid white;
+	display: inline-block;
+	
+}
+.Top-Bar-Links ul li:last-child {
+	border: none;
+}
+.Top-Bar-Links ul li a{
+	letter-spacing: 1px;
+	color: white;
+}
+.Top-Bar-Links ul li a:hover{
+	color: yellow;
+}
+.Profile{
+	background-color: #1a1a1a;
+}
+.Profile a{
+	margin: 23px 10px 23px 0;
+	letter-spacing: 1px;
+	color: yellow;
+	float: right;
+}
+.Content{
+	background-color: #1a1a1a;
+}
+.Content h1{
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	margin: 0px 5% 10px 5%;
+	text-align: center;
+	color: white;
+}
+.Content .Table { padding: 70px 0; }
+.Content .Table h2 { width: 60%; margin: 60px auto; text-align: center; color: #1a1a1a; padding: 20px; background-color: orange; font-family: sans-serif;  }
+.Content .Table table { width: 75%; margin: 0 auto; border-collapse: collapse; }
+.Content .Table table th { padding: 20px 0; border-bottom: 2px solid #000; font-family: sans-serif; font-weight: bold; text-align: center; background-color: #808080; }
+.Content .Table table td { padding: 12px 0; font-family: sans-serif; font-weight: bold; text-align: center; color: #1a1a1a; }
+.Content .Table .Explain { width: 75%; margin: 80px auto 0px auto; }
+.Content .Table .Explain h3 { padding: 10px 0px; }
+.Content .Table .Explain span { color: #808080; font-family: sans-serif; padding-left: 15px; }
+.Content .Table .Notifi table { margin-bottom: 80px; }
+.Content .Table .Notifi table tr { border-bottom: 30px solid #1a1a1a; }
+.Content .Table .Notifi table td a button { padding:3px 10px; border-radius:15px; border: 2px solid #1a1a1a; }
+.Content .Table .Notifi table td a button:hover { cursor: pointer; }
+
+
+
+.Home-Col{
+	color: white;
+	margin: 0 2.5% 0 2.5%;
+	width: 20%;
+	float: left;
+}
+.Usage img{
+	width: 100%;
+	height: 250px;
+}
+
+
+
+
+.Home-Col h1{
+	margin: 20px 0 20px 0;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+}
+.Home-Col p{
+	color: grey;
+}
+.Home-Col a:hover{
+	color: yellow;
+}
+
+
+.Quick-Links a{
+	clear: both;
+	float: right;
+	margin: 6px;
+	margin-right: 35px;
+	color: grey;
+	border-bottom: 1px solid white;
+}
+.Quick-Links a:first-child{
+	margin-top: 0;
+}
+
+
+.Services{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.Services img{
+	float: left;
+	margin-right: 15px;
+	width: 50px
+}
+.Services a{
+	color: red;
+	float: right;
+	margin: 5px 0 5px 0;
+}
+
+
+.Final-Social-Media ul{
+	list-style: none;
+}
+.Final-Social-Media ul li{
+	display: inline;
+}
+.Final-Social-Media ul li a{
+	padding: 10px;
+	background: transparent;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+
+/*Meadia queries of the income file*/
+@media screen and (max-width: 1200px){
+	.Table th:nth-child(9), .Table td:nth-child(9) { display: none; }
+	/*.Table th:nth-child(2), .Table td:nth-child(2) { display: none; }*/
+	.Content .Table table td{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media screen and (max-width: 1000px){
+	.Content .Table .tab { overflow-x: auto; }
+	.Content .Table table { width: 790px; }
+	.Content .Table .tab{ width: 80%; margin: 0 auto; }
+	.Content .Table .Notifi td{ padding-left: 15px; padding-right: 15px; }
+	.Content .Table .Notifi table{ width: 80%; margin: 0 auto; }
+
+}
+@media screen and (max-width: 920px){
+	.Content{
+		padding-top: 70px;
+	}
+	.Content .Table{
+		padding: 50px 0;
+	}
+	.Table h2{
+		border-radius: 35px;
+	}
+}
+@media screen and (max-width: 680px){
+	.Content .Table{
+		padding: 30px 0;
+	}
+}
+@media screen and (max-width: 450px){
+	.Content .Table{
+		padding: 15px 0;
+	}
+}
+@media screen and (max-width: 380px){
+	.Explain h3{
+		font-size: 16px;
+	}
+}

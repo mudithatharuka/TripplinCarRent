@@ -1,0 +1,156 @@
+* {margin: 0; padding: 0;}
+.clearfix{overflow: auto;}
+a {text-decoration: none;}
+
+
+
+body{
+	background: #000;
+}
+
+
+.Top-Bar{
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	position: sticky;
+	top: 0;
+}
+.Top-Bar-Links{
+	float: left;
+}
+.Top-Bar-Links ul{
+	margin: 23px;
+	list-style: none;
+}
+.Top-Bar-Links ul li{
+	padding: 0 20px;
+	border-right: 2px solid white;
+	display: inline-block;
+	
+}
+.Top-Bar-Links ul li:last-child {
+	border: none;
+}
+.Top-Bar-Links ul li a{
+	letter-spacing: 1px;
+	color: white;
+}
+.Top-Bar-Links ul li a:hover{
+	color: yellow;
+}
+.Profile a{
+	margin: 23px 10px 23px 0;
+	letter-spacing: 1px;
+	color: yellow;
+	float: right;
+}
+
+.Pvcplcyback{
+	background-color: #1a1a1a;
+}
+.PrivacyPolicy{
+	background-color: #1a1a1a;
+	width: 75%;
+	margin: 0 auto;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.PrivacyPolicy h1{
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+	margin: 0px 0 10px 0;
+	text-align: center;
+	padding-top: 10px;
+}
+.PrivacyPolicy h2{
+	color: orange;
+}
+.PrivacyPolicy p{
+	font-family: sans-serif;
+	color: white;
+	font-size: 20px;
+}
+.Para{
+	margin: 50px 0 50px 0;
+}
+.PrivacyPolicy a{
+	color: red;
+}
+.PrivacyPolicy a:hover{
+	color: yellow;
+}
+
+
+
+.Home-Col{
+	color: white;
+	margin: 0 2.5% 0 2.5%;
+	width: 20%;
+	float: left;
+}
+.Home-Col h1{
+	margin: 20px 0 20px 0;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+}
+.Home-Col p{
+	color: grey;
+}
+.Home-Col a:hover{
+	color: yellow;
+}
+
+
+.Quick-Links a{
+	clear: both;
+	float: right;
+	margin: 6px;
+	margin-right: 35px;
+	color: grey;
+	border-bottom: 1px solid white;
+}
+.Quick-Links a:first-child{
+	margin-top: 0;
+}
+
+
+.Services{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.Services img{
+	float: left;
+	margin-right: 15px;
+	width: 50px
+}
+.Services a{
+	color: red;
+	float: right;
+	margin: 5px 0 5px 0;
+}
+
+
+.Final-Social-Media ul{
+	list-style: none;
+}
+.Final-Social-Media ul li{
+	display: inline;
+}
+.Final-Social-Media ul li a{
+	padding: 10px;
+	background: transparent;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+
+/*Meadia queries of the privacy policy file*/
+@media screen and (max-width: 920px){
+	.PrivacyPolicy{
+		padding-top: 70px;
+	}
+}

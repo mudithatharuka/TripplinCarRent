@@ -1,0 +1,426 @@
+* {margin: 0; padding: 0;}
+.clearfix{overflow: auto;}
+a {text-decoration: none;}
+
+
+
+body{
+	background: #000;
+}
+
+.Top-Bar{
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	position: sticky;
+	top: 0;
+}
+.Top-Bar-Links{
+	float: left;
+}
+.Top-Bar-Links ul{
+	margin: 23px;
+	list-style: none;
+}
+.Top-Bar-Links ul li{
+	padding: 0 20px;
+	border-right: 2px solid white;
+	display: inline-block;
+	
+}
+.Top-Bar-Links ul li:last-child {
+	border: none;
+}
+.Top-Bar-Links ul li a{
+	letter-spacing: 1px;
+	color: white;
+}
+.Top-Bar-Links ul li a:hover{
+	color: yellow;
+}
+
+.Profile{
+	background-color: #1a1a1a;
+}
+.Profile a{
+	margin: 23px 10px 23px 0;
+	letter-spacing: 1px;
+	color: yellow;
+	float: right;
+}
+
+
+.Profile h1{
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+	padding-top: 20px;
+	margin: 0px 5% 10px 5%;
+	text-align: center;
+	color: white;
+}
+.Information{
+	padding-bottom: 50px;
+}
+.Topic{
+	margin: 40px 4% 0 25%;
+	display: inline-block;
+	width: 21%;	
+	color: orange;
+	font-family: sans-serif;
+}
+.Answer{
+	text-align: center;
+	border-bottom: 1px solid white;
+	margin-top: : 40px;
+	display: inline-block;
+	width: 21%;	
+	color: #fff;
+	font-family: sans-serif;
+}
+.Usage{
+	width: 75%;
+	margin: 0 auto;
+	color: #fff;
+}
+.Usage h2{
+	/*margin: 0 10% 0 10%;*/
+	padding: 10px 0 10px 0;
+	padding-left: 3%;
+	border-bottom: 1px solid #fff;
+}
+.Info{
+	margin: 15px 10% 15px 10%;
+	padding: 50px 0;
+	box-sizing: content-box;
+}
+
+.Item{
+	/*display: inline-block;*/
+	float: left;
+	margin: 20px 1%;
+	width: 47.5%;
+	font-family: sans-serif;
+	align-items: center;
+	
+}
+
+.Item h3{
+	text-align: center;
+	margin: 10px;
+}
+.Item h3.h3{ margin: 15px 0; padding: 5px; border-radius: 20px; color: #1a1a1a; clear: both; }
+
+.Item img{
+	width: 100%;
+	
+}
+.Item p{
+	text-align: left;
+}
+.item h1{
+	padding: 0;
+	padding: 0 20px 0 0;
+}
+
+.Item .but { text-align: center; padding: 20px 0; }
+.Item .but a { float: none; }
+.Item .but button { padding: 7px 18px; border-radius: 25px; font-family: sans-serif;font-weight: bold; border: none; color: #1a1a1a; }
+.Item .but button:hover { cursor: pointer; }
+
+.Home-Col{
+	color: white;
+	margin: 0 2.5% 0 2.5%;
+	width: 20%;
+	float: left;
+}
+.Usage img{
+	width: 100%;
+	height: 250px;
+}
+h3.changepre button {
+	background-color: #35aa58;
+	padding: 10px 30px; 
+	border-radius: 20px;  
+	font-family: sans-serif; 
+	font-weight: bold; 
+	font-size: 16px; 
+	border: none;
+	float: left;
+}
+h3.changepre button,h3.Topic a button,.Changepassword button:hover { cursor: pointer; }
+.Changepassword{
+	/*margin-top: 30px;*/
+	border: 1px solid #fff;
+	margin: 40px 29% 0 25%;
+	padding: 30px;
+	border-radius: 20px;
+}
+.subtopic{
+	padding: 15px;
+	display: inline-block;
+	width: 35%;	
+	color: orange;
+	font-family: sans-serif;
+}
+.Changepassword input{
+	padding: 5px 30px;
+	width: 50%;
+	border-radius: 20px;
+	border: 1px solid orange;
+	background-color: #1a1a1a;
+	color: orange;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+.Changepassword input:hover{
+	background-color: #000;
+	transition-duration: .60s;
+}
+.Changepassword button{
+	margin-left: 40%;
+	margin-top: 20px;
+	background-color: #35aa58;
+	padding: 10px 30px; 
+	border-radius: 20px;  
+	font-family: sans-serif; 
+	font-weight: bold; 
+	font-size: 16px; 
+	border: none;
+}
+
+
+.Home-Col h1{
+	margin: 20px 0 20px 0;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+}
+.Home-Col p{
+	color: grey;
+}
+.Home-Col a:hover{
+	color: yellow;
+}
+
+
+.Quick-Links a{
+	clear: both;
+	float: right;
+	margin: 6px;
+	margin-right: 35px;
+	color: grey;
+	border-bottom: 1px solid white;
+}
+.Quick-Links a:first-child{
+	margin-top: 0;
+}
+
+
+.Services{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.Services img{
+	float: left;
+	margin-right: 15px;
+	width: 50px
+}
+.Services a{
+	color: red;
+	float: right;
+	margin: 5px 0 5px 0;
+}
+
+
+.Final-Social-Media ul{
+	list-style: none;
+}
+.Final-Social-Media ul li{
+	display: inline;
+}
+.Final-Social-Media ul li a{
+	padding: 10px;
+	background: transparent;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+
+/*Meadia queries of the profile file*/
+@media screen and (max-width: 1400px){
+	h3.Answer{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	h3.changepre{
+		padding: 0;
+		margin-top: 25px;	
+	}
+	.subtopic{
+		width: 50%;
+	}
+	.Changepassword input{
+		margin-left: 100px;
+		width: 65%;
+		margin-bottom: 10px;
+	}
+	.Changepassword button{
+		margin-left: 100px;
+	}
+}
+@media screen and (max-width: 1040px){
+	.Topic {
+		width: 60%;
+	}
+	.Answer {
+		float: none;
+		width: 50%;
+		margin-left: 25%;
+	}
+	h3.Topic a button{
+		width: 200px;
+	}
+	h3.changepre button{
+		width: 200px;
+	}
+	.subtopic{
+		width: 80%;
+	}
+	.Changepassword input{
+		margin-left: 30px;
+		width: 85%;
+		margin-bottom: 10px;
+	}
+	.Changepassword button{
+		margin-left: 30px;
+	}
+}
+@media screen and (max-width: 945px){
+	.Info{
+		width: 65%;
+		margin: 0 auto;
+	}
+	.Item{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 920px){
+	.Inside{
+		padding-top: 70px;
+	}
+	.subtopic{
+		padding-left: 0;
+	}
+	.Changepassword input{
+		margin-left: 10px;
+		width: 95%;
+	}
+	.Changepassword button{
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width: 780px){
+	.Info{
+		width: 75%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 600px){
+	.Info{
+		width: 85%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 1200px){
+	.Changepassword{
+		width: 60%;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width: 475px){
+	.Answer {
+		font-size: 16px;
+	}
+	h3.Topic a button{
+		width: 150px;
+		margin-left: 45px;
+	}
+	h3.changepre button{
+		width: 150px;
+		margin-left: 45px;
+	}
+	.Changepassword{
+		width: 65%;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+	.Info{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 440px){
+	h3.Topic a button{
+		margin-left: 30px;
+	}
+	h3.changepre button{
+		margin-left: 30px;
+	}
+	.Info{
+		width: 95%;
+		margin: 0 auto;
+	}
+	.Item h1{
+		padding: 0;
+		padding-right: 10px;
+	}
+}
+@media screen and (max-width: 420px){
+	h3.Topic a button{
+		margin-left: 20px;
+	}
+	h3.changepre button{
+		margin-left: 20px;
+	}
+}
+@media screen and (max-width: 380px){
+	.Answer{
+		font-size: 13px;
+	}
+	h3.Topic a button{
+		margin-left: 10px;
+	}
+	h3.changepre button{
+		margin-left: 10px;
+	}
+	.Info{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.Item .but button{
+		margin-top: 20px;
+	}
+	.Item h1{
+		padding-right: 2px;	
+	}
+}
+@media screen and (max-width: 340px){
+	h3.Topic a button{
+		margin-left: 0px;
+	}
+	h3.changepre button{
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 295px){
+	h3.Topic a button{
+		width: 130px;
+		margin-left: 5px;
+	}
+	h3.changepre button{
+		margin-left: 5px;	
+		width: 130px;
+	}
+}

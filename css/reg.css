@@ -1,0 +1,391 @@
+* {margin: 0; padding: 0;}
+.clearfix{overflow: auto;}
+a {text-decoration: none;}
+
+
+
+body{
+	background: #000;
+}
+
+
+
+.Top-Bar{
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	position: sticky;
+	top: 0;
+}
+.Top-Bar-Links{
+	float: left;
+}
+.Top-Bar-Links ul{
+	margin: 23px;
+	list-style: none;
+}
+.Top-Bar-Links ul li{
+	padding: 0 20px;
+	border-right: 2px solid white;
+	display: inline-block;
+	
+}
+.Top-Bar-Links ul li:last-child {
+	border: none;
+}
+.Top-Bar-Links ul li a{
+	letter-spacing: 1px;
+	color: white;
+}
+.Top-Bar-Links ul li a:hover{
+	color: yellow;
+}
+
+
+
+.Main{
+	margin: 0;
+	padding: 0;
+	background:url(../img/downloadfile.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.error{
+	background-color: red;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin: 0 6%;
+	padding: 10px 0;
+	
+}
+.noerror{
+	background-color: green;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin: 0 6%;
+	padding: 10px 0;
+	
+}
+.Blank{
+	height: 100px;
+}
+.RegForm{
+	width:60%;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 12px 0px 12px 0px;
+	margin: 0 20% 0 20%;
+	background-color: rgb(0,0,0,0.8);
+	border-radius: 15px 15px 0px 0px;
+	font-family: sans-serif;
+}
+.Main form{
+	width: 60%;
+	padding: 35px 0 35px 0;
+	background-color: rgb(0,0,0,0.6);
+	font-family: sans-serif;
+	border-radius: 0px 0px 15px 15px;
+	margin: 0 20% 0 20%;
+}
+#Topic{
+	width: 100%;
+	height: 100px;
+}
+.Topic{
+	margin: 40px 4% 0 6%;
+	display: inline-block;
+	width: 15%;
+	color: white;
+	font-size: 18px;
+	font-weight: 700px;	
+}
+.FirstName{
+	padding-right: 1%;
+	width: 32%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.LastName{
+	padding-right: 1%;
+	width: 32%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.Username{
+	padding-right: 1%;
+	width: 32%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.Address1{
+	padding-right: 1%;
+	width: 66%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.Address2{
+	padding-right: 1%;
+	width: 66%;
+	margin: 0 0 0 25.5%; 
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+select{
+	height: 31px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+
+.Phone{
+	padding-right: 1%;
+	width: 32%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.Nic{
+	padding-right: 1%;
+	width: 32%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+
+.Email{
+	padding-right: 1%;
+	width: 66%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.radio{
+	display: inline-block;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	padding-right: 5%;
+	margin-right: 3%;
+}
+.Password{
+	padding-right: 1%;
+	width: 32%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.RePassword{
+	padding-right: 1%;
+	width: 32%;
+	line-height: 30px;
+	border-radius: 6px;
+	font-size: 16px;
+	color: orange;
+}
+.Main button{
+	background-color: red;
+	color: white;
+	width: 200px;
+	height: 40px;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 45px;
+	margin-left: 26%;
+	border: none;
+	border-radius: 5px;
+}
+.Main button:hover{
+	background-color: yellow;
+	cursor: pointer;
+	color: black;
+}
+.Main input[type = "text"],input[type = "password"],input[type = "mail"],select{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	border-radius: 0px;
+}
+.Down{
+	margin: 40px 0 10px 6%;
+}
+.Down ul li a{
+	color: white;
+	border-bottom: 1px solid #fff;
+}
+.Down ul li a:hover{
+	color: yellow;
+}
+
+
+
+.Home-Col{
+	color: white;
+	margin: 0 2.5% 0 2.5%;
+	width: 20%;
+	float: left;
+}
+.Home-Col h1{
+	margin: 20px 0 20px 0;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+}
+.Home-Col p{
+	color: grey;
+}
+.Home-Col a:hover{
+	color: yellow;
+}
+
+
+.Quick-Links a{
+	clear: both;
+	float: right;
+	margin: 6px;
+	margin-right: 35px;
+	color: grey;
+	border-bottom: 1px solid white;
+}
+.Quick-Links a:first-child{
+	margin-top: 0;
+}
+
+
+.Services{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.Services img{
+	float: left;
+	margin-right: 15px;
+	width: 50px
+}
+.Services a{
+	color: red;
+	float: right;
+	margin: 5px 0 5px 0;
+}
+
+
+.Final-Social-Media ul{
+	list-style: none;
+}
+.Final-Social-Media ul li{
+	display: inline;
+}
+.Final-Social-Media ul li a{
+	padding: 10px;
+	background: transparent;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+
+/*Meadia queries of the registration file*/
+
+@media screen and (max-width: 920px){
+	.RegForm {
+		margin-top: 60px;
+	}
+}
+@media screen and (max-width: 850px){
+	.RegForm{
+		width: 75%;
+		margin: 0 auto;
+		margin-top: 60px;
+	}
+	.Main form{
+		width: 75%;
+		margin: 0 auto;	
+	}
+}@media screen and (max-width: 680px){
+	.Topic{
+		width: 80%;
+		display: block;
+		padding-bottom: 20px;
+	}
+	.Address2{
+		margin: 0;
+	}
+	.FirstName, .Username, .Address1, .Address2, select, .Nic, .Email, .rad1, .Password {
+		margin-left: 80px;
+	}
+}
+@media screen and (max-width: 600px){
+	.RegForm h1{
+		font-size: 25px;
+	}
+	.FirstName, .LastName, .RePassword, .Password, .Username, .Nic{
+		display: block;
+		margin-left: 80px;
+		width: 66%;
+	}
+	.FirstName, .Address2, .RePassword{
+		padding-top: 15px;
+	}
+
+}
+@media screen and (max-width: 500px){
+	.RegForm {
+		margin-top: 30px;
+	}
+	.RegForm h1{
+		font-size: 22px;
+	}
+	select{
+		margin-left: 50px;
+	}
+	.FirstName, .LastName, .RePassword, .Password, .Username, .Nic, .Address1, .Address2, .Email{
+		margin-left: 50px;
+		width: 70%;
+	}
+}
+@media screen and (max-width: 445px){
+	.Phone{
+		width: 53%;
+	}
+	.Main button {
+		margin-left: 50px;
+	}
+}
+@media screen and (max-width: 370px){
+	.Main form{
+		width: 90%;
+		margin: 0 auto;	
+	}
+	.RegForm{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.rad1{
+		margin-left: 50px;
+	}
+	.Phone{
+		width: 50%;
+	}
+	.Main button {
+		width: 50%;
+	}
+	.RegForm h1{
+		font-size: 18px;
+	}
+}
