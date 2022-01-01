@@ -50,11 +50,13 @@ Admin Panel :
   http://localhost:8080/MyRadProject/reg.php
 ```
 - To use existing account:
-  - email: 
+  - Email: 
+  
    ```bash
   workmine70@gmail.com
 ```
-  - password: 
+  - Password: 
+
   ```bash
   asdf1234
 ```
@@ -64,10 +66,12 @@ Admin Panel :
 ```
 - Email and Password for a default admin account are as follows. Even you can create a new admin account too. But if you want to check the admin list, youu have to use the default admin account.
   - Email: 
+
  ```bash
   admin@gmail.com
 ```
-  - password:  
+  - Password:  
+
  ```bash
   asdf1234
 ```
