@@ -35,7 +35,7 @@ What is the main advantage of using this website for vehicle renters, rather tha
 
 - Create a database (you can use any DBMS) called "**newtripplin**". 
 
-- ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEgaqDl3WqyMtSofppZ1dSvcESgiqwHIsM-wEz7-tufF0tci_Ij7FUNznuqGzO1WRmJUm6d9DRWO7tnCfGuGD4rVoFz5rBkk-_iUaG-sK1xxzbL-Yr1lepFO66Q8bIfORAfdrtSoHug7sRWrA7jICGB6EU8-vzFys6S8f3HLXrO9i9nZOENezQUW4mBOtw=s16000)
+ ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEgaqDl3WqyMtSofppZ1dSvcESgiqwHIsM-wEz7-tufF0tci_Ij7FUNznuqGzO1WRmJUm6d9DRWO7tnCfGuGD4rVoFz5rBkk-_iUaG-sK1xxzbL-Yr1lepFO66Q8bIfORAfdrtSoHug7sRWrA7jICGB6EU8-vzFys6S8f3HLXrO9i9nZOENezQUW4mBOtw=s16000)
 
 - Import the database file which is in the sql folder of the project to the "**newtripplin**" database.
 
@@ -94,6 +94,7 @@ After successfuly configuring the project, the home page of the website can be s
 - User can check it in the "**Showroom**" page or it is alo displayed on the "**Rented Vehicles**" area of the user profilr page as below.
 
 - If someone booked a vehicle rented by this user, he/she is informed by a notification as below and also an admin also can contact the renter. Also the notifications are displayed after an admin confirms that booking and after returning the vehicle.
+
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEi3z4yKLpPRwhx28-dCtuZamPbHldRr1H-EVPJaC_nvzOUlkVPVkseQ2V51sQ7tsiOTcZsNYb-LsPrBbdqFIg6yxfaKylPTr3roff0n2q55rCbPnKTGdi6WHHRhJ7DdrGmoBpv-u-S34Xzajv2UNCjPYzXP8yBrHj33Ut94ONgOHgZxsyLYc4Duv8IGuA=s16000)
 
 - All the income and profit information are displayed as follows on the income tab.
@@ -107,6 +108,7 @@ After successfuly configuring the project, the home page of the website can be s
 - By clicking the "**BOOK**" button at the bottom of the vehicle description page, user should first fill the required informatin which are the "**Picking Date**", "**Returning date**", etc.
 
 - Then the choosed vehicle can be booked by again clicking the "**BOOK**" button and the details of the booking is displayed on the user profile page under the "**Booked Vehicles**" area as below.
+
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEi3xVS4OJY0RUmlscVzmyBCbOWa9zVJEQVMLwsVerNfzsrDL0Z_GRXOFIu180lz-15914F4WP1OQcDUHnkBVuwl4cqO4RC--59qFInTq7jvICsw4xc2_ltDGuIiVN0FCjNBIa4iLXjgxcwU3bow89Hip_-NgufTVX8IUiCn7gQcB72ZqKowEP0It59YFg=s16000)
 
 - The blue color "**Your Booking is Pending**" message is apeared because the booking is still not approved by the admin. It means the booking is in the pending status. 
@@ -114,11 +116,13 @@ After successfuly configuring the project, the home page of the website can be s
 - An admin should confirm or delete the booking within a few hours of time.
 
 - After confirming the booking by admins, it is displayed as "**Your Booking has been Confirmed**" with an orange background on the profile page, and also a notification will be arived.
+
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEjG3SPDA8bEH-wOouIGj41i5yjhfqb37FKbgJq4lwc4t3acct3n8mgF_LrG68bpPyQv5-Vxnym9RcGKsajuhGE6CTB0MoTuzk1xvYBfRu2ILvFLebbdtqmCE9wpY1Wgs0i--wEeTifo6iTSIqNUTus0ddnzxKiuJrqD4hya9GzDZ_LfUIqm4BWV32OHOA=s16000)
 
 - Then the user can collect the vehicle for his/her picnic.
 
 - After the picnic, user should return the vehicle on or before the returning date. Then the admin confirm the return of the vehicle and the orange color message turns into green on the user profie page.
+
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEgqaCRZW3c-Buq1xSYoQVCBBQc_gEBadyiYQxvHF1rQJR5aV2N9rrhhEOJMm1VMpZMG58Yja9F6tgFXq77WqI9cjz7rsMWNcg-GWEhuaVxG5cFtjf5TPVhIh0j2AypFTM0bgnanjb-u-vCcv0yKSqqaRBq6VX3WQN6W9f9bEMDEzF1vsqvMeYLddY2T-Q=s16000)
 
 
@@ -127,12 +131,15 @@ After successfuly configuring the project, the home page of the website can be s
 - Admins can check the Rented & Booked vehicles on the "**Rented Vehicles**" & "**Booked Vehicles**" tabs respectively.
 
 - Clicking the "**View**" button on each row, admin can view the details of the corresponding Booking or Rental and take relevent actions.
+
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhNzl8dj9E_7nMSg_bZm7HQVJ1wGm4EwfLFnpZjk2SKfjn6WwQ-uZNRkCSmdbV1V2YrP8Lg-SA3F_kxNWcHEHoppcjU_1pOyaM3Nd_z-o4y7zftymlYoLTchqzwbE6Sm1RQovJBO1K5wwH-HDjEMeoezpxAswnPBT43bnj5rwadzkfG65it2rsxMKUGxQ=s16000)
 
 - To confirm a booking, admin should click the "**Confirm**" button and the background becomes orange.
+
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEhResIb4E7dUaiVtyQM3__lvY9mDSgTOgWUB-3nz12PgGNFSjUt-mcq4JSW8q7mGAZER2eDYyGgzuAj_o3Ff1FXlFxMssmcHJL1wnTAbYScpYGK5UkFznxJ1hOdSvXQ6Tl365uL07vAvXpHSj8jAbd-5WY4R8cIDHx_RB8ZER5IyyJ_RA7_UpKoKpEpXw=s16000)
 
 - To confirm a returning, admin should click the "**Return**" button and the background becomes green.
+
 ![App Screenshot](https://blogger.googleusercontent.com/img/a/AVvXsEgSOxa0YrGF3KeNFZVFf3P1S3P-NAGb6pIwkjW4J90Ld8xdyD-D5To_LcSpUEb84l5o16hhAASnTbRHhl7WIMLsv40op8oUFX2C2fYixUGRpNYfKizS0peKtPjreMhD9nLlK9e2lhmzAfO6LaVVboOCZkrKG9SFO8zKNHunQSiJFR85cOEZffnyyqLQaA=s16000)
 
 
